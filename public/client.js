@@ -1,4 +1,4 @@
-const publicVapidKey = "BF9qO4eLSQfodWmlVxbhy1BS7Ywnf6ALDZ9Vhm8E_dW-u6tCApjqd94lLkbjGeRL1kBcd5i5tXHcQtyLWyoQEOw";
+const publicVapidKey = "";
 
 // check if we are able to use service worker in current browser
 const sendNotification = () => {
