@@ -17,7 +17,7 @@ app.post("/subscribe", (req, res) => {
 
   const subscribe = req.body;
 
-  const payload = JSON.stringify({title: "Push Notification Test"});
+  const payload = JSON.stringify({title: "Push Notification Test", body: "Notification Body Test"});
 
   webpush.sendNotification(subscribe, payload).catch(err => console.log(err));
 });
